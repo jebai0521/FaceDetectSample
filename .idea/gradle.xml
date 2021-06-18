@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/firebasemlkit" />
             <option value="$PROJECT_DIR$/hmsmlkit" />
+            <option value="$PROJECT_DIR$/tenginekit" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

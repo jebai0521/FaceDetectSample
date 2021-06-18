@@ -1,3 +1,4 @@
+include ':tenginekit'
 include ':common'
 include ':hmsmlkit'
 include ':firebasemlkit'
