@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'com.huawei.agconnect'
 }
 
 android {
@@ -7,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "xyz.perkd.hmsmlkit"
+        applicationId "xyz.perkd.facedetect"
         minSdkVersion 28
         targetSdkVersion 30
         versionCode 1
@@ -36,4 +37,11 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.huawei.agconnect:agconnect-core:1.3.1.300'
+
+    // 引入基础SDK
+    implementation 'com.huawei.hms:ml-computer-vision-face:2.0.5.300'
+    // 引入人脸轮廓+关键点检测模型包
+    implementation 'com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.5.300'
 }

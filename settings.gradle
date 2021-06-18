@@ -1,3 +1,4 @@
+include ':common'
 include ':hmsmlkit'
 include ':firebasemlkit'
 rootProject.name = "FaceDetect"

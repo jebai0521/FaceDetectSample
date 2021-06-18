@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:650840146940:android:a3569d0efbddcb8ae2a879",
+        "mobilesdk_app_id": "1:650840146940:android:618e283111cb3a0ee2a879",
         "android_client_info": {
-          "package_name": "xyz.perkd.facedetect"
+          "package_name": "xyz.perkd.facedetect.firebase"
         }
       },
       "oauth_client": [
